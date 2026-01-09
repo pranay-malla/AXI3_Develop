@@ -5,7 +5,7 @@ import uvm_pkg::*;
 
 
 
-`include "general_templates.sv"
+`include "axi_global_usage.sv"
 `include "interface.sv"
 
 `include "axi_seq_item.sv"
@@ -20,4 +20,4 @@ import uvm_pkg::*;
 
 `include "axi_env.sv"
 `include "axi_test.sv"
-`include "tb_top.sv"
+`include "testbench_top.sv"
