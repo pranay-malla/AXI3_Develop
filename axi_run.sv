@@ -1,0 +1,17 @@
+`include "uvm_pkg.sv"
+import uvm_pkg::*;
+
+`include "axi_global.sv"
+`include "axi_interface.sv"
+`include "axi_seq_item.sv"
+`include "axi_seq.sv"
+`include "axi_sqcr.sv"
+`include "axi_drv.sv"
+`include "axi_resp.sv"
+`include "axi_mon.sv"
+`include "axi_agent.sv"
+`include "axi_sco.sv"
+`include "axi_cov.sv"
+`include "axi_env.sv"
+`include "axi_test.sv"
+`include "axi_top.sv"
